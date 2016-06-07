@@ -16,3 +16,7 @@ This is a simple installation of MADlib installed in PostgreSQL on a vagrant box
                             FALSE,
                             ARRAY[1, 1, 1]
                           );
+
+To add MADlib on a new database instance, connect to it and run:
+    CREATE EXTENSION plpythonu;
+    CREATE EXTENSION madlib;
