@@ -92,5 +92,5 @@ This is a simple installation of MADlib installed in PostgreSQL on a vagrant box
 ## Notes:
 
 
-The box provisions 1.5GB RAM to install MadLib. You can reduce this after the initial vagrant up in the VagrantFile.
+The box provisions 1.5GB RAM to install MadLib. You can reduce this after the initial build (vagrant up) by modifying the VagrantFile.
 
