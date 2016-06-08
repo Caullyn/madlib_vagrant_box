@@ -88,6 +88,11 @@ This is a simple installation of MADlib installed in PostgreSQL on a vagrant box
     SELECT * FROM arima_beer_forecast_output;
 
 
+## MADLib Arima Documentation:
+
+
+http://madlib.incubator.apache.org/docs/master/group__grp__arima.html
+
 
 ## Notes:
 
