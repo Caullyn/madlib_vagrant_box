@@ -3,7 +3,7 @@
 This is a simple installation of MADlib installed in PostgreSQL on a vagrant box. You can bring it up and start playing with all of the cool data science functions MADlib has to offer.
 
 
-Install:
+## Install:
 
 
     git clone <repo_name>
@@ -11,7 +11,7 @@ Install:
     vagrant up
 
 
-Create a Madlib Database:
+## Create a Madlib Database:
 
 
     vagrant ssh
@@ -24,7 +24,7 @@ Create a Madlib Database:
     CREATE EXTENSION madlib;
 
 
-Test Madlib:
+## Test Madlib:
 
 
     CREATE TABLE arima_beer (time_id integer NOT NULL, value double precision NOT NULL );
@@ -87,4 +87,10 @@ Test Madlib:
     
     SELECT * FROM arima_beer_forecast_output;
 
+
+
+## Notes:
+
+
+The box provisions 1.5GB RAM to install MadLib. You can reduce this after the initial vagrant up in the VagrantFile.
 
